@@ -6,69 +6,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:focusableInTouchMode="true"
     tools:context=".login.LoginActivity">
-
-<!--    <RelativeLayout-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        android:layout_centerInParent="true"-->
-<!--        android:paddingHorizontal="28dp"-->
-<!--        >-->
-
-<!--        <com.google.android.material.textfield.TextInputLayout-->
-<!--            android:id="@+id/user_name_layout"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="user name"-->
-<!--            >-->
-
-<!--            <com.google.android.material.textfield.TextInputEditText-->
-<!--                android:id="@+id/user_name"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="match_parent"-->
-<!--                android:inputType="text"-->
-<!--                />-->
-
-<!--        </com.google.android.material.textfield.TextInputLayout>-->
-
-<!--        <com.google.android.material.textfield.TextInputLayout-->
-<!--            android:id="@+id/password_layout"-->
-<!--            android:layout_width="match_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:hint="password"-->
-<!--            android:layout_below="@+id/user_name_layout"-->
-<!--            android:layout_marginTop="12dp"-->
-<!--            >-->
-
-<!--            <com.google.android.material.textfield.TextInputEditText-->
-<!--                android:id="@+id/password"-->
-<!--                android:layout_width="match_parent"-->
-<!--                android:layout_height="match_parent"-->
-<!--                android:inputType="textPassword"-->
-<!--                />-->
-
-<!--        </com.google.android.material.textfield.TextInputLayout>-->
-
-<!--        <Button-->
-<!--            android:id="@+id/sign_up"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:text="Sign In"-->
-<!--            android:layout_below="@+id/password_layout"-->
-<!--            android:layout_marginTop="12dp"-->
-<!--            android:layout_alignParentEnd="true"-->
-<!--            android:textAllCaps="false"-->
-<!--            />-->
-
-<!--        <ProgressBar-->
-<!--            android:id="@+id/progress_bar"-->
-<!--            android:layout_width="wrap_content"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_centerInParent="true"-->
-<!--            android:visibility="gone"-->
-<!--            />-->
-
-<!--    </RelativeLayout>-->
-
     <ProgressBar
         android:visibility="gone"
         android:id="@+id/progress_bar"
@@ -237,9 +174,6 @@
             </com.google.android.material.textfield.TextInputLayout>
 
         </RelativeLayout>
-
-
-
 <!--        <com.google.android.material.textfield.TextInputLayout-->
 <!--            android:layout_width="match_parent"-->
 <!--            android:layout_height="wrap_content"-->
@@ -316,10 +250,7 @@
                 android:textColor="@android:color/white"
                 android:textSize="16sp"
                 android:textStyle="bold" />
-
         </LinearLayout>
-
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -329,8 +260,6 @@
             android:textAlignment="center"
             android:textColor="@android:color/darker_gray"
             android:textSize="16sp" />
-
-
     </LinearLayout>
 
 </RelativeLayout>

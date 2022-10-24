@@ -62,7 +62,7 @@ class HomeActivity : AppCompatActivity() {
         Log.e("Lat", currentLat.toString())
         val mapController = map.controller
         mapController.setZoom(20)
-        val startPoint = GeoPoint(currentLat, currentLat)
+        val startPoint = GeoPoint(10.869922318651321, 106.8029259290873)
         mapController.setCenter(startPoint)
 
         //marker - location của thiết bị hiện tại
